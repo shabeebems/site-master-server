@@ -15,7 +15,6 @@ import {
     IOtpData
 } from './authInterfaces';
 import { Messages } from '../../constants/messageConstants';
-// import { NotFoundError } from '../../errors/notFountError';
 
 const userSchema = new UserRepository()
 const otpSchema = new OtpRepository()
